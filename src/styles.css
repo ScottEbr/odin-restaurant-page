@@ -1,0 +1,108 @@
+@import url('https://fonts.googleapis.com/css2?family=Lavishly+Yours&family=Libre+Caslon+Text:ital,wght@0,400;0,700;1,400&display=swap');
+
+html, body {
+    margin: 0;
+    height: 100%;
+}
+
+body {
+    background-color: #F7F7ED;
+    font-family: "Libre Caslon Text", serif, system-ui, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+}
+
+header {
+    display: flex;
+    height: 150px;
+    align-items: center;
+    padding: 0px 100px;
+    justify-content: space-between;
+}
+
+#index-title {
+    font-family: "Lavishly Yours", system-ui, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+    font-size: 5rem;
+}
+
+button {
+    border: none;
+    padding: 8px 32px;
+    text-align: center;
+    text-decoration: none;
+    font-family: inherit;
+    font-size: 1.5rem;
+    cursor: pointer;
+    font-weight: bold;
+    transition: 0.5s ease;
+    margin-right: 25px;
+    background-color: inherit;
+}
+
+button:hover {
+    transform: scale(1.05);
+}
+
+#content {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+}
+
+/* Home */
+
+.home-hero {
+    display: flex;
+    flex-direction: column;
+    width: 800px;
+    align-items: center;
+    height: 100%;
+}
+
+.home-hero p:first-child {
+    font-weight: bold;
+}
+
+.home-hero img {
+    margin-top: 14px;
+    width: 100%;
+}
+
+/* Menu */
+
+.menu-hero {
+    display: flex;
+    height: 100%;
+    align-items: center;
+    gap: 160px;
+}
+
+.menu-list {
+    display: flex;
+    flex-direction: column;
+}
+
+.menu-hero img {
+    margin-top: 14px;
+    height: 600px;
+}
+
+/* Footer */
+
+footer {
+    display: flex;
+    bottom: 0;
+    align-items: center;
+    justify-content: center;
+    gap: 1rem;
+    width: 100%;
+    height: 50px;
+    transition: 0.5s ease;
+}
+
+.github-logo {
+    height: 24px;
+
+    border-radius: 50%;
+}
