@@ -27,8 +27,6 @@ function createMenu() {
 
 }
 
-
-
 function insertTitle(text){
     const title = document.createElement("h1");
 

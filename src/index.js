@@ -1,6 +1,7 @@
 import "./styles.css";
 import loadHome from "./home";
 import loadMenu from "./menu";
+import loadContact from "./contact";
 
 loadHome();
 // loadMenu();
@@ -10,8 +11,9 @@ homebtn.addEventListener("click", loadHome)
 
 const menubtn = document.getElementById("menu-btn");
 menubtn.addEventListener("click", loadMenu);
-console.log(menubtn)
 
-const contactbtn = document.getElementsByID("contact-btn");
+
+const contactbtn = document.getElementById("contact-btn");
+contactbtn.addEventListener("click", loadContact);
 
 
